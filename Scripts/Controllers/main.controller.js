@@ -1,7 +1,9 @@
 ﻿angular.module("shopModule")
     .controller("MainController", [
         "$scope",
-        function ($scope) {
+        "$route",
+        function ($scope, $route) {
+            $scope.$route = $route;
             $scope.products = [];
 
             $scope.loadProducts = function () {
@@ -15,5 +17,7 @@
                 var jsonString = JSON.stringify($scope.products);
                 localStorage.setItem("products", jsonString);
             }
+
+            $scope.loadProducts();
         }
     ]);

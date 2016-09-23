@@ -13,9 +13,15 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/Products">Products</a></li>
-                <li><a href="/About">About</a></li>
+                <li ng-class="{active: $route.current.activeTab == 'Home'}">
+                    <a href="/">Home</a>
+                </li>
+                <li ng-class="{active: $route.current.activeTab == 'Products'}">
+                    <a href="/Products">Products</a>
+                </li>
+                <li ng-class="{active: $route.current.activeTab == 'About'}">
+                    <a href="/About">About</a>
+                </li>
             </ul>
         </div>
     </div>
