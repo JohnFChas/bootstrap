@@ -21,3 +21,8 @@ Bootstrap på w3schools: http://www.w3schools.com/bootstrap/default.asp
 - Använd glyhpicons som knappar för att ta bort objekt ur listan.
 - Titta runt bland de bootstrap komponenter som finns, både på bootstraps hemsida och w3schools.
   Implementera fler coola komponenter på din hemsida, get creative!
+
+	-= INLÄMNING =-
+- Skapa ett GIT repository, till exempel på github.com.
+- Pusha upp ert projekt till ert repository.
+- Maila länken till repositoryt till mig på john.fristedt@chas.se.
