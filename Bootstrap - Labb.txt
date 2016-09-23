@@ -1,19 +1,23 @@
 Skapa en ny hemsida med AngularJS och Bootstrap
 Hemsidan ska ha:
-- En bootstrap Navbar, gärna som en partial
-- En main controller i index
-- En "Home" view med en bootstrap Carousel
-- En "About" view med en bootstrap Jumbotron
-- En valfri view som listar något sorts objekt
-	- Varje objekt i listan ska använda bootstrap columner så att du får rader med objekt i listan
+- Använd bootstraps grid-struktur (container eller container-fluid, row, col).
+- Använd bootstrap för att snygga till alla formulär.
+- En bootstrap Navbar, gärna som en partial.
+- En main controller i index.
+- En "Home" view med en bootstrap Carousel och någon snyggt formaterad text.
+- En valfri view som listar något sorts objekt.
+	- Varje objekt i listan ska använda bootstrap columner så att du får rader med objekt i listan.
+	- Man ska kunna ta bort objekten i listan med någon sorts knapp eller liknande.
 
 Tänk på att alla vyer bör använda bootstrap columner (till exempel col-md-12), även de som använder hela bredden.
 Man vill inte ha en massa element som ligger ensamma utanför bootstraps grid-struktur.
 
-Användbara länkar:
+	-= LÄNKAR =-
 Bootstrap components: http://getbootstrap.com/components/
 Bootstrap på w3schools: http://www.w3schools.com/bootstrap/default.asp
 
 	-= EXTRAUPPGIFT =-
+- En "About" view med en bootstrap Jumbotron (se länkarna).
+- Använd glyhpicons som knappar för att ta bort objekt ur listan.
 - Titta runt bland de bootstrap komponenter som finns, både på bootstraps hemsida och w3schools.
   Implementera fler coola komponenter på din hemsida, get creative!
