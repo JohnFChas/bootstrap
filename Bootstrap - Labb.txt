@@ -15,6 +15,7 @@ Man vill inte ha en massa element som ligger ensamma utanför bootstraps grid-str
 	-= LÄNKAR =-
 Bootstrap components: http://getbootstrap.com/components/
 Bootstrap på w3schools: http://www.w3schools.com/bootstrap/default.asp
+Bootstrap grid: https://getbootstrap.com/examples/grid/
 
 	-= EXTRAUPPGIFT =-
 - En "About" view med en bootstrap Jumbotron (se länkarna).
