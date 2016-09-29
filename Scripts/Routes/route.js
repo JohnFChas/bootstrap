@@ -28,7 +28,7 @@
                 })
 
                 .when("/About", {
-                    template: "<div></div>",
+                    templateUrl: "Views/About.html",
                     controller: "AboutController",
                     caseInsensitiveMatch: true,
                     activeTab: "About"

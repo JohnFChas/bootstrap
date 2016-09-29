@@ -11,12 +11,12 @@
 
                 if (dataString)
                     $scope.products = JSON.parse(dataString);
-            }
+            };
 
             $scope.saveProducts = function () {
                 var jsonString = JSON.stringify($scope.products);
                 localStorage.setItem("products", jsonString);
-            }
+            };
 
             $scope.loadProducts();
         }

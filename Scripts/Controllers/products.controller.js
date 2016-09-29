@@ -9,6 +9,12 @@
                 $scope.products.push($scope.newProduct);
                 $scope.newProduct = {};
                 $scope.saveProducts();
+                $("#newProductModal").modal("hide");
+            };
+
+            $scope.removeProduct = function (index) {
+                $scope.products.splice(index, 1);
+                $scope.saveProducts();
             }
         }
     ]);
